@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*
+Pequenas telas: até 600px
+Celular: de 600px até  768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+TV: acima de 1200px 
+*/
+
+@media screen and (max-width: 600px) {/*Pequenas Telas*/
+    .frontcard{
+        width: 450px;
+        height: 300px;
+    }
+    .backcard{
+        width: 450px;
+        height: 300px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {/*Celular*/
+    .frontcard{
+        width: 600px;
+        height: 300px;
+    }
+    .backcard{
+        width: 600px;
+        height: 300px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){/*Tablet*/
+    .frontcard{
+        width: 650px;
+        height: 350px;
+    }
+    .backcard{
+        width: 650px;
+        height: 350px;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
+
+    .frontcard{
+        width: 830px;
+        height: 450px;
+    }
+    .backcard{
+        width: 830px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 1200px) {/*TV*/
+    .frontcard{
+        width: 830px;
+        height: 450px;
+        border-radius: 20px;
+    }
+    .backcard{
+        width: 830px;
+        height: 450px;
+        border-radius: 20px;
+    }
+}
