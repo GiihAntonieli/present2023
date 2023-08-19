@@ -24,6 +24,9 @@ TV: acima de 1200px
         width: 300px;
         height: 450px;
     }
+    #image{
+        margin: 30px;
+    }
     .backcard{
         width: 300px;
         height: 450px;

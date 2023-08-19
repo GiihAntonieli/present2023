@@ -18,7 +18,7 @@ div#pcard{
 .card{
     position: relative;
     background-color: transparent;
-    height: 620px;
+    height: 100vh;
     padding: 10px;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
@@ -31,18 +31,27 @@ div#pcard{
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.534);
 }
 .frontcard{
-    background-color: aqua;
-    color: white;
+    background-color: rgb(235, 235, 178);
+    color: black;
     border-radius: 15px;
 
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
-
+#image{
+    margin: 10px;
+    margin-left: 50px;
+    
+}
+.frontcard > p{
+    display: inline-block;
+    text-align: justify;
+    margin: auto;
+}
 .backcard{
-    background-color: red;
-    color: white;
+    background-color: rgb(235, 235, 178);
+    color: black;
     border-radius: 15px;
     backface-visibility: hidden;
 
