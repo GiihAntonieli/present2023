@@ -7,7 +7,7 @@ Desktop: de 992px até 1200px
 TV: acima de 1200px 
 */
 
-@media screen and (max-width: 600px) {/*Pequenas Telas*/
+@media screen and (max-width: 600px) and (orientation: landscape){/*Pequenas Telas*/
     .frontcard{
         width: 450px;
         height: 300px;
@@ -19,17 +19,37 @@ TV: acima de 1200px
     
     
 }
-
-@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: portrait){/*Celular*/
+@media screen and (orientation: portrait) {
     .frontcard{
-        width: 250px;
-        height: 600px;
+        width: 300px;
+        height: 450px;
     }
     .backcard{
-        width: 250px;
-        height: 600px;
+        width: 300px;
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape) {/*Celular*/
+    .frontcard{
+        width: 600px;
+        height: 300px;
+    }
+    .backcard{
+        width: 600px;
+        height: 300px;
     }
     
+}
+@media screen and (orientation: portrait) {
+    .frontcard{
+        width: 300px;
+        height: 600px;
+    }  
+    .backcard{
+        width: 300px;
+        height: 600px;
+    }  
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){/*Tablet*/
