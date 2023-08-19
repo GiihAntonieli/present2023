@@ -17,6 +17,7 @@ div#pcard{
 }
 .card{
     position: relative;
+    background-color: transparent;
     height: 620px;
     padding: 10px;
     transform-style: preserve-3d;
