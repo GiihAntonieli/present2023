@@ -39,15 +39,22 @@ div#pcard{
     top: 50%;
     transform: translate(-50%,-50%);
 }
-#image{
+/*#image{;
     margin: 10px;
     margin-left: 50px;
+
+}*/
+.frontcard{
+    background-image: url(../img/flork-heart-618p.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 250px 270px;
+    background-attachment: fixed;
+}  
+#bth{
+    text-align: right;
+    margin: 50px;
     
-}
-.frontcard > p{
-    display: inline-block;
-    text-align: justify;
-    margin: auto;
 }
 .backcard{
     background-color: rgb(235, 235, 178);
