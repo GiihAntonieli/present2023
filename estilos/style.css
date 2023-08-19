@@ -27,7 +27,7 @@ div#pcard{
     position: absolute;
     width: 450px;
     height: 300px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.594);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.534);
 }
 .frontcard{
     background-color: aqua;
