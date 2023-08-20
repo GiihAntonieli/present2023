@@ -84,6 +84,7 @@ h1{
     font-size: 1.5em;
     text-align: center;
     margin-top: 20px;
+    text-decoration: underline;
 }
 .txt{
     margin: auto;
