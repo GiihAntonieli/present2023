@@ -52,8 +52,21 @@ div#pcard{
     background-attachment: fixed;
 }  
 #bth{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.7em;
     text-align: right;
-    margin: 50px;
+    margin: 100px 130px 0px 10px;
+
+    
+}
+#bth2{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.7em;
+    text-align: right;
+    margin: 0px 30px 10px 10px;
+
     
 }
 .backcard{
@@ -65,6 +78,30 @@ div#pcard{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%) rotateY(180deg);
+}
+h1{
+    font-family: cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+.txt{
+    margin: auto;
+    padding: 18px;
+    width:360px;
+    height: 150px;
+    font-family: cursive;
+    font-size: 1em;
+    text-align: justify;
+}
+#te{
+    margin: auto;
+    padding: 18px;
+    width:360px;
+    height: 150px;
+    font-family: cursive;
+    font-size: 1em;
+    text-align: justify;
 }
 #pcard:hover .card{
     transform: rotateY(180deg);

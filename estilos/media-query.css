@@ -11,60 +11,231 @@ TV: acima de 1200px
     .frontcard{
         width: 450px;
         height: 300px;
+        background-position: left bottom;
+    }
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.26em;
+        text-align: right;
+        margin: 100px 50px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.3em;
+        text-align: right;
+        margin: 0px 10px 10px 10px;
+        
     }
     .backcard{
         width: 450px;
         height: 300px;
     }
-    
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
     
 }
 @media screen and (orientation: portrait) {
     .frontcard{
         width: 300px;
         height: 450px;
+        background-size: 250px 270px;
+        background-position: center bottom;
     }
-    #image{
-        margin: 30px;
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 0.7em;
+        text-align: right;
+        margin: 100px 130px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: right;
+        margin: 0px 30px 10px 10px;
+        
     }
     .backcard{
         width: 300px;
         height: 450px;
     }
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
+    
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape) {/*Celular*/
     .frontcard{
         width: 600px;
         height: 300px;
+        background-position: left bottom;
+    }
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        text-align: right;
+        margin: 100px 130px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: right;
+        margin: 0px 30px 10px 10px;
+        
     }
     .backcard{
         width: 600px;
         height: 300px;
     }
     
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
 }
 @media screen and (orientation: portrait) {
     .frontcard{
         width: 300px;
         height: 600px;
+        background-position: center bottom;
     }  
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.25em;
+        text-align: right;
+        margin: 100px 130px 10px 11px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: right;
+        margin: 0px 30px 10px 10px;
+        
+    }
     .backcard{
         width: 300px;
         height: 600px;
     }  
+    
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width: 260px;
+        height: 190px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
+    #te{
+        margin: auto;
+        margin-top: 60px;
+        width:260px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px){/*Tablet*/
     .frontcard{
         width: 650px;
         height: 350px;
+        background-position: left bottom;
+    }
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.8em;
+        text-align: right;
+        margin: 120px 150px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: right;
+        margin: 0px 60px 10px 10px;
+        
     }
     .backcard{
         width: 650px;
         height: 350px;
     }
     
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 10px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
+    #te{
+        margin: auto;
+        padding: 18px;
+        width: 360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/
@@ -72,10 +243,51 @@ TV: acima de 1200px
     .frontcard{
         width: 830px;
         height: 450px;
+        background-size: 330px 350px;
+        background-position: left bottom;
+    }
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 2em;
+        text-align: right;
+        margin: 160px 150px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 2.6em;
+        text-align: right;
+        margin: 0px 30px 10px 10px;
+        
     }
     .backcard{
         width: 830px;
         height: 450px;
+    }
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
+    #te{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
     }
 }
 
@@ -84,10 +296,52 @@ TV: acima de 1200px
         width: 830px;
         height: 450px;
         border-radius: 20px;
+        background-size: 320px 350px;
+        background-position: left bottom ;
+    } 
+    #bth{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 2.4em;
+        text-align: right;
+        margin: 150px 190px 10px 10px;
+    }
+    #bth2{
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 2.6em;
+        text-align: right;
+        margin: 0px 90px 10px 10px;
+        
     }
     .backcard{
         width: 830px;
         height: 450px;
         border-radius: 20px;
+    }
+   
+    h1{
+        font-family: cursive;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .txt{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
+    }
+    #te{
+        margin: auto;
+        padding: 18px;
+        width:360px;
+        height: 150px;
+        font-family: cursive;
+        font-size: 1em;
+        text-align: justify;
     }
 }
